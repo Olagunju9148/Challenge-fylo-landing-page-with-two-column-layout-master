@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid limegreen; */
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 2rem;
+}
+
+.logo img {
+    width: 5rem;
+    max-width: 100%;   
+    margin-right: 8rem;
+}
+
+.nav-links > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* background-color: aliceblue; */
+    width: 110%;
+}
+
+.nav-links li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    font-size: .8rem;
+}
+
+.illustration img {
+    width: 40.5rem;
+    max-width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
+}
+
+.hero-section h1 {
+    padding: 0 1rem;
+    line-height: 2.1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+.hero-section p {
+    padding: 0 1.8rem;
+    line-height: 1.4rem;
+    margin-bottom: 2.3rem;
+}
+
+#email-input-1 {
+    padding: .8rem 8rem .8rem 0;
+    border: 1px solid hsl(243, 87%, 12%);
+    margin-bottom: 1.5rem;
+    border-radius: .2rem;
+    outline: none;
+}
+
+#email-input-2 {
+    padding: .8rem 8rem .8rem 0;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: .2rem;
+    margin-bottom: .5rem;
+    outline: none;
+}
+
+input::placeholder {
+    color: hsl(0, 0%, 75%);
+    text-align: center;
+}
+
+.cta {
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-1 {
+    padding: .8rem 7.3rem;
+    border-radius: .2rem;
+}
+
+.btn-2 {
+    padding: .8rem 5.5rem;
+    border-radius: .2rem;
+}
+
+.section-1 {
+    margin-top: 6rem; 
+}
+
+.section-bg-mobile img {
+    position: relative;
+    top: .5rem;
+    max-width: 100%;
+    width: 48rem;
+}
+
+.section-illustration, .section-texts {
+    background-color: hsl(240, 75%, 98%);
+    padding: 0 1.5rem 8rem;
+}
+
+.section-bg-desktop {
+    display: none;
+}
+
+.section-texts h3 {
+    font-size: 1.2rem;
+    padding: 1.5rem 0;
+}
+
+.section-texts p {
+    padding-inline: .8rem;
+    text-align: left;
+    line-height: 1.4rem;
+    color: hsl(0, 0%, 75%);
+    font-weight: 400;
+}
+
+.section-texts a {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    line-height: 2rem;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    display: inline-block;
+    margin: 3rem 0;
+}
+
+.testimonial-box {
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    border-radius: .2rem;
+    text-align: left;
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+.testimonial-box p {
+    color: hsl(0, 0%, 0%);
+    font-size: .8rem;
+}
+
+.reviewer-info {
+    display: flex;
+    font-size: .6rem;
+    margin-left: .8rem;
+    margin-top: 1rem;
+}
+
+.icon-quote {
+    margin-right: 15rem;
+}
+
+.avatar img {
+    width: 1.8rem;
+    border-radius: 50%;
+}
+
+.avatar-name h4 {
+    text-align: left;
+    margin-left: .8rem;
+    font-weight: 700;
+}
+
+.section-2 {
+    background-color: hsl(238, 22%, 44%);
+    padding: 3.5rem 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 h3 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.section-2 p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 4rem 3rem 0;
+    text-align: left;
+}
+
+
+.footer-logo {
+    margin-bottom: 2.5rem;
+}
+
+.contacts {
+    list-style: none;  
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2.5rem;
+}
+
+.contacts img {
+    margin: 0 1.4rem 0 0;
+}
+
+.phone, .email {
+    display: flex;
+    margin: 1rem 0 0;
+}
+
+.nav-about-us {
+    margin-bottom: 2.5rem;
+}
+
+.nav-footer ul{
+    list-style: none;
+}
+
+.nav-footer li {
+    margin: 1rem 0;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
