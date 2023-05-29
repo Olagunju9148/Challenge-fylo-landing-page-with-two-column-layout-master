@@ -68,7 +68,7 @@ body {
 }
 
 #email-input-1 {
-    padding: .8rem 8rem .8rem 0;
+    padding: .8rem 8rem .8rem 1rem;
     border: 1px solid hsl(243, 87%, 12%);
     margin-bottom: 1.5rem;
     border-radius: .2rem;
@@ -76,7 +76,7 @@ body {
 }
 
 #email-input-2 {
-    padding: .8rem 8rem .8rem 0;
+    padding: .8rem 8rem .8rem 1rem;
     border: 1px solid hsl(243, 87%, 12%);
     border-radius: .2rem;
     margin-bottom: .5rem;
@@ -95,12 +95,12 @@ input::placeholder {
 }
 
 .btn-1 {
-    padding: .8rem 7.3rem;
+    padding: .8rem 8rem;
     border-radius: .2rem;
 }
 
 .btn-2 {
-    padding: .8rem 5.5rem;
+    padding: .8rem 8rem;
     border-radius: .2rem;
 }
 
