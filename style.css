@@ -254,10 +254,43 @@ input::placeholder {
     display: inline-block;
 }
 
+.nav-socials ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3.5rem;
+}
 
+.nav-socials li {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    padding: .2rem .3rem;
+    border: 1px solid hsl(0, 0%, 100%);
+}
 
+.nav-socials li:not(:last-child) {
+    margin-right: 1rem;
+}
 
+.fa-brands {
+    font-size: .85rem;
+}
 
+.fa-facebook-f {
+    padding: .3rem;
+}
+
+.fa-twitter {
+    padding: .1rem;
+}
+
+.fa-instagram {
+    padding: .2rem;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 43.75rem) {
+    
+}
